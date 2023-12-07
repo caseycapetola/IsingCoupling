@@ -1,8 +1,8 @@
 import java.util.Random;
 
 public class IsingCoupling {
-	private static final int GRID_SIZE = 5;
-	private static final double BETA = 2.42;
+	private static final int GRID_SIZE = 9;
+	private static final double BETA = 1.5;
     private static final int POS = 1;
     private static final int NEG = -1;
     
@@ -177,6 +177,20 @@ public class IsingCoupling {
 			steps++;
 		}
 		System.out.println("Num Steps: " + steps);
+//		System.out.println("posgrid: " + gridPOS);
+//		for(int i=0; i<GRID_SIZE; i++) {
+//			for(int j=0; j<GRID_SIZE; j++) {
+//				System.out.print(gridPOS[i][j]);
+//			}
+//			System.out.println();
+//		}
+//		System.out.println("neggrid: " + gridNEG);
+//		for(int i=0; i<GRID_SIZE; i++) {
+//			for(int j=0; j<GRID_SIZE; j++) {
+//				System.out.print(gridNEG[i][j]);
+//			}
+//			System.out.println();
+//		}
 	}
 	
 	
